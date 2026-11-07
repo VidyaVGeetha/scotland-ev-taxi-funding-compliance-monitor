@@ -1,0 +1,166 @@
+edition_year,council_as_published,taxi_vehicles,private_hire_cars,total_vehicles,taxi_driver_licences,private_hire_licences,total_licences,wheelchair_accessible_taxis,wheelchair_accessible_phc
+2021,Aberdeen City,647,189,836,1094,1,1095,333,0
+2021,Aberdeenshire,350,346,696,1233,114,1347,36,47
+2021,Angus,[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2021,Argyll & Bute,173,55,228,353,43,396,12,3
+2021,Clackmannanshire,46,42,86,109,4,113,5,1
+2021,Dumfries & Galloway,214,59,273,385,14,399,5,0
+2021,Dundee City,509,167,676,1006,25,1031,202,[Unknown]
+2021,East Ayrshire,125,95,220,339,16,355,24,5
+2021,East Dunbartonshire,236,296,532,472,98,570,50,4
+2021,East Lothian [note 10],112,54,166,284,[Not applicable],284,112,0
+2021,East Renfrewshire,45,369,414,63,443,506,4,28
+2021,"Edinburgh, City of",[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2021,Eilean Siar,86,24,110,137,24,161,1,3
+2021,Falkirk,372,105,477,483,116,599,60,6
+2021,Fife [note 10],481,369,850,1592,,1592,17,49
+2021,"Glasgow, City of",1419,3449,4868,2052,4513,6565,1419,30
+2021,Highland,236,296,532,472,98,570,50,4
+2021,Inverclyde [note 10],243,50,293,501,[Not applicable],501,20,0
+2021,Midlothian,44,117,161,76,181,257,44,0
+2021,Moray,164,18,182,265,9,274,10,16
+2021,North Ayrshire,220,47,267,459,1,460,42,8
+2021,North Lanarkshire,477,1201,1678,984,1192,2176,188,1
+2021,Orkney Islands,33,15,48,83,8,91,1,1
+2021,Perth & Kinross [note 10],101,233,334,593,593,593,9,24
+2021,Renfrewshire,226,782,1008,413,845,1258,220,21
+2021,Scottish Borders,164,55,219,240,19,259,21,10
+2021,Shetland Islands,70,58,128,205,67,272,3,2
+2021,South Ayrshire,108,171,279,415,89,504,108,0
+2021,South Lanarkshire,348,1299,1647,749,1310,2059,21,31
+2021,Stirling,79,113,192,282,10,292,21,12
+2021,West Dunbartonshire [note 10],334,91,425,446,,446,167,9
+2021,West Lothian,83,401,484,160,570,730,83,58
+2021,Scotland,7745,10566,18309,15945,10403,25755,3288,373
+2022,Aberdeen City,593,225,818,1055,1,1056,335,0
+2022,Aberdeenshire,493,391,884,528,74,602,39,33
+2022,Angus,81,60,141,132,110,242,4,2
+2022,Argyll & Bute,173,53,226,339,44,383,10,1
+2022,Clackmannanshire,[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2022,Dumfries & Galloway,214,51,265,364,21,385,3,0
+2022,Dundee City,508,155,663,1045,24,1069,241,0
+2022,East Ayrshire,125,98,223,360,11,371,24,5
+2022,East Dunbartonshire,208,277,485,437,115,552,47,2
+2022,East Lothian [note 10],119,112,231,299,N/A,299,119,[unavailable]
+2022,East Renfrewshire [Note 62],36,385,421,55,507,562,2,12
+2022,"Edinburgh, City of",1258,2153,3411,2480,2763,5243,1258,19
+2022,Eilean Siar,83,18,101,125,18,143,2,3
+2022,Falkirk,379,98,477,459,68,527,60,5
+2022,Fife [note 10],481,369,850,1585,,1585,13,47
+2022,"Glasgow, City of",1401,3163,3564,1743,3328,5071,1401,31
+2022,Highland,479,193,672,568,268,836,15,15
+2022,Inverclyde [note 10],245,42,287,477,N/A,477,20,0
+2022,Midlothian,41,115,156,69,192,261,41,[unknown]
+2022,Moray,157,19,176,547,11,558,10,1
+2022,North Ayrshire,224,46,270,450,1,451,41,4
+2022,North Lanarkshire,464,1069,1533,942,977,1919,53,1
+2022,Orkney Islands,30,15,45,75,6,83,1,2
+2022,Perth & Kinross [note 10],103,227,330,573,573,573,25,38
+2022,Renfrewshire,229,715,944,416,819,1235,223,19
+2022,Scottish Borders,169,49,218,231,25,256,18,13
+2022,Shetland Islands,59,58,117,190,74,264,3,3
+2022,South Ayrshire,96,145,241,415,74,489,96,0
+2022,South Lanarkshire,338,1513,1851,810,1486,2296,19,29
+2022,Stirling,82,124,206,314,9,323,21,14
+2022,West Dunbartonshire [note 10],334,96,430,411,-,841,168,12
+2022,West Lothian,69,404,473,145,543,688,69,65
+2022,Scotland,9271,12438,20709,17639,12142,29640,4381,376
+2023,Aberdeen City,[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,Aberdeenshire,335,390,725,1199,159,1358,28,39
+2023,Angus,86,64,150,124,126,250,5,3
+2023,Argyll & Bute,[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,Clackmannanshire,[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,Dumfries & Galloway,211,50,261,358,26,384,3,0
+2023,Dundee City,298,169,653,879,18,897,186,0
+2023,East Ayrshire,125,104,229,362,17,379,24,3
+2023,East Dunbartonshire,207,275,482,436,113,549,41,2
+2023,East Lothian [note 10],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,East Renfrewshire [Note 62],40,406,446,61,513,574,1,3
+2023,"Edinburgh, City of",1164,2552,3716,2289,3157,5446,1164,10
+2023,Eilean Siar [Note 63],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,Falkirk,396,92,488,495,62,557,56,5
+2023,Fife [note 10],481,320,801,1674,,1674,16,50
+2023,"Glasgow, City of",1351,3276,4627,1762,3898,5660,1351,25
+2023,Highland,473,228,701,612,317,929,9,12
+2023,Inverclyde [note 10],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable],[unavailable]
+2023,Midlothian,36,124,160,64,205,269,36,0
+2023,Moray,125,17,142,230,12,384,7,16
+2023,North Ayrshire,235,46,281,474,1,475,48,4
+2023,North Lanarkshire,435,1025,1460,962,918,1880,167,0
+2023,Orkney Islands,36,17,53,77,8,85,1,2
+2023,Perth & Kinross [note 10],103,231,334,598,598,598,24,41
+2023,Renfrewshire,224,686,910,448,827,1275,220,21
+2023,Scottish Borders,161,60,221,259,26,285,14,14
+2023,Shetland Islands,61,64,125,190,95,285,3,3
+2023,South Ayrshire,92,161,253,417,75,492,92,0
+2023,South Lanarkshire,355,1585,1940,869,1525,2394,20,29
+2023,Stirling,180,105,285,345,9,354,15,9
+2023,West Dunbartonshire [note 10],326,85,411,402,0,813,161,8
+2023,West Lothian,62,437,499,135,632,767,62,74
+2023,Scotland,7598,12569,20353,15721,13337,29013,3754,373
+2024,Aberdeen City,522,295,817,894,5,899,305,0
+2024,Aberdeenshire,331,438,769,1272,191,1463,30,40
+2024,Angus,78,57,135,114,113,227,3,5
+2024,Argyll & Bute,167,63,230,350,59,409,13,6
+2024,Clackmannanshire,51,45,96,102,4,106,3,0
+2024,Dumfries & Galloway,197,53,250,333,44,377,2,1
+2024,Dundee City,455,185,640,926,22,948,197,0
+2024,East Ayrshire,125,111,236,325,20,345,25,2
+2024,East Dunbartonshire,207,294,501,473,135,608,43,2
+2024,East Lothian [note 64],97,123,220,[unavailable],[unavailable],269,97,[unavailable]
+2024,East Renfrewshire [Note 62],37,385,422,56,498,554,0,3
+2024,"Edinburgh, City of",1111,2882,3993,2149,3387,5536,1111,10
+2024,Eilean Siar [Note 63],72,19,91,120,16,136,2,3
+2024,Falkirk,405,85,490,512,57,569,52,5
+2024,Fife [note 10],481,382,863,1690,[unavailable],1690,13,75
+2024,"Glasgow, City of",1233,3450,4683,1633,4790,6423,1233,34
+2024,Highland,431,238,669,569,368,937,3,10
+2024,Inverclyde [note 10],241,31,272,397,[unavailable],397,18,0
+2024,Midlothian,27,126,153,59,212,271,27,0
+2024,Moray,151,21,172,222,13,235,6,1
+2024,North Ayrshire,237,42,279,454,[unavailable],454,69,9
+2024,North Lanarkshire,395,1066,1461,1009,879,1888,156,1
+2024,Orkney Islands,25,21,46,73,10,83,0,1
+2024,Perth & Kinross [note 10],100,246,346,[unavailable],[unavailable],538,20,44
+2024,Renfrewshire,223,645,868,438,758,1196,218,24
+2024,Scottish Borders,147,60,207,235,30,265,9,17
+2024,Shetland Islands,61,69,130,194,105,299,2,3
+2024,South Ayrshire,89,162,251,428,72,500,89,0
+2024,South Lanarkshire,352,1562,1914,926,1435,2361,32,33
+2024,Stirling,180,101,281,333,8,341,13,9
+2024,West Dunbartonshire [note 10],320,92,412,378,0,378,155,10
+2024,West Lothian,52,453,505,116,691,807,52,80
+2024,Scotland,8600,13802,22402,16780,13922,31509,3998,428
+2025,Aberdeen City,485,346,831,945,8,953,278,0
+2025,Aberdeenshire,324,449,773,1467,180,1647,27,45
+2025,Angus,83,54,137,115,104,219,4,3
+2025,Argyll & Bute,170,85,255,364,66,430,12,2
+2025,Clackmannanshire,52,48,100,124,2,126,6,0
+2025,Dumfries & Galloway,183,57,240,287,49,336,1,1
+2025,Dundee City,458,182,640,1004,21,1025,203,0
+2025,East Ayrshire,125,110,235,287,25,312,22,2
+2025,East Dunbartonshire,225,328,553,517,150,667,43,2
+2025,East Lothian [note 64],90,124,214,[unavailable],[unavailable],282,90,[unavailable]
+2025,East Renfrewshire [Note 62],36,409,445,63,548,611,1,3
+2025,"Edinburgh, City of",1078,3069,4147,1890,3536,5426,1078,7
+2025,Eilean Siar,88,22,110,148,20,168,5,3
+2025,Falkirk,388,84,472,503,48,551,38,4
+2025,Fife [note 10],481,338,819,1645,[unavailable],1645,15,85
+2025,"Glasgow, City of",1232,3439,4671,1640,5232,6872,1232,23
+2025,Highland,409,254,663,523,360,883,7,11
+2025,Inverclyde [note 10],235,27,262,367,[unavailable],367,16,0
+2025,Midlothian,25,140,165,50,226,276,25,0
+2025,Moray,123,22,145,255,19,274,5,1
+2025,North Ayrshire,230,37,267,452,[unavailable],452,43,0
+2025,North Lanarkshire,398,1150,1548,1004,889,1893,156,1
+2025,Orkney Islands,31,21,52,73,10,83,0,2
+2025,Perth & Kinross [note 10],97,241,338,[unavailable],[unavailable],531,17,43
+2025,Renfrewshire,224,662,886,432,880,1312,216,23
+2025,Scottish Borders,145,62,207,229,24,253,12,14
+2025,Shetland Islands,59,73,132,190,119,309,3,2
+2025,South Ayrshire,77,173,250,415,74,489,77,0
+2025,South Lanarkshire,266,1463,1729,892,1297,2189,31,27
+2025,Stirling,167,87,254,333,6,339,11,7
+2025,West Dunbartonshire [note 10],320,78,398,389,0,389,152,7
+2025,West Lothian,50,539,589,32,329,361,50,76
+2025,Scotland,8354,14173,22527,16635,14222,31670,3876,394

@@ -1,0 +1,33 @@
+{
+  "name": "Scotland EV Compliance",
+  "dataColors": ["#2A78D6", "#EB6834", "#1BAF7A", "#EDA100", "#E87BA4", "#008300", "#6250D6", "#E34948"],
+  "background": "#FCFCFB",
+  "foreground": "#0B0B0B",
+  "tableAccent": "#2A78D6",
+  "good": "#1BAF7A",
+  "neutral": "#EDA100",
+  "bad": "#E34948",
+  "maximum": "#1D4F8C",
+  "center": "#9A9993",
+  "minimum": "#EB6834",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#0B0B0B" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#0B0B0B" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#52514E" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#0B0B0B" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E4E3DF" } }, "radius": 6 }],
+        "padding": [{ "top": 10, "bottom": 10, "left": 12, "right": 12 }],
+        "valueAxis": [{ "gridlineColor": { "solid": { "color": "#E4E3DF" } }, "gridlineThickness": 1 }],
+        "categoryAxis": [{ "gridlineShow": false }]
+      }
+    },
+    "page": {
+      "*": { "background": [{ "color": { "solid": { "color": "#F4F3F0" } }, "transparency": 0 }] }
+    }
+  }
+}

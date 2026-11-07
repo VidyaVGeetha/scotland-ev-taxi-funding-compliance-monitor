@@ -1,0 +1,134 @@
+// =====================================================================================
+// Scotland EV Taxi Funding – Compliance Risk Monitor
+// DAX measures. Create a table called _Measures (Enter data > one empty column) and
+// add each measure below to it. Table names match the CSV names in data/clean.
+// =====================================================================================
+
+// ---------- Funding ----------
+EV Taxi Funding £ =
+SUM ( fact_ev_taxi_funding_by_council[ev_taxi_funding_gbp] )
+
+Hackney Loans £ =
+SUM ( fact_ev_taxi_funding_by_council[hackney_loans_gbp] )
+
+Switched On Taxis £ =
+SUM ( fact_ev_taxi_funding_by_council[switched_on_taxis_gbp] )
+
+All LCTL Loans £ =
+SUM ( fact_ev_taxi_funding_by_council[all_lctl_loans_gbp] )
+
+EV Taxi Share of LCTL % =
+DIVIDE ( [EV Taxi Funding £], [All LCTL Loans £] )
+
+Funding by Year £ =
+SUM ( fact_funding_by_year[amount_gbp] )
+
+EV Taxi Funding by Year £ =
+CALCULATE ( [Funding by Year £], fact_funding_by_year[is_ev_taxi_stream] = TRUE () )
+
+SoT Loans 2022/23 =
+SUM ( fact_loan_counts_2022_23[sot_loans_2022_23] )
+
+Avg SoT Loan 2022/23 £ =
+// Scotland-level only: 2022/23 SoT £ divided by the FOI loan count
+DIVIDE (
+    CALCULATE ( [Funding by Year £],
+        fact_funding_by_year[financial_year] = "2022/23",
+        fact_funding_by_year[stream] = "Switched On Taxis (EV taxi)" ),
+    CALCULATE ( [SoT Loans 2022/23], REMOVEFILTERS ( dim_council ) )
+)
+
+// ---------- Licensed fleet ----------
+Selected Year =
+SELECTEDVALUE ( dim_year[year], 2025 )
+
+Licensed Vehicles =
+CALCULATE (
+    SUM ( fact_taxi_fleet[total_vehicles] ),
+    fact_taxi_fleet[is_reliable] = TRUE ()
+)
+
+Taxis =
+CALCULATE ( SUM ( fact_taxi_fleet[taxi_vehicles] ), fact_taxi_fleet[is_reliable] = TRUE () )
+
+Private Hire Cars =
+CALCULATE ( SUM ( fact_taxi_fleet[private_hire_cars] ), fact_taxi_fleet[is_reliable] = TRUE () )
+
+Licensed Vehicles (Scotland published) =
+SUM ( fact_taxi_fleet_scotland[total_vehicles] )
+
+Licensed Vehicles PY =
+CALCULATE ( [Licensed Vehicles], dim_year[year] = [Selected Year] - 1 )
+
+Licensed Vehicles YoY % =
+VAR cur = CALCULATE ( [Licensed Vehicles], dim_year[year] = [Selected Year] )
+VAR prev = [Licensed Vehicles PY]
+RETURN IF ( NOT ISBLANK ( cur ) && NOT ISBLANK ( prev ), DIVIDE ( cur - prev, prev ) )
+
+Unreliable Fleet Years =
+CALCULATE ( COUNTROWS ( fact_taxi_fleet ), fact_taxi_fleet[is_reliable] = FALSE () )
+
+Fleet Data Completeness % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_taxi_fleet ), fact_taxi_fleet[is_reliable] = TRUE () ),
+    COUNTROWS ( fact_taxi_fleet )
+)
+
+// ---------- Plug-in cars (DfT VEH0142) ----------
+BEV Cars Private (year end) =
+CALCULATE (
+    SUM ( fact_plugin_cars[vehicles] ),
+    fact_plugin_cars[fuel] = "Battery electric",
+    fact_plugin_cars[keepership] = "Private",
+    fact_plugin_cars[is_year_end] = TRUE ()
+)
+
+BEV Cars Company (year end) =
+CALCULATE (
+    SUM ( fact_plugin_cars[vehicles] ),
+    fact_plugin_cars[fuel] = "Battery electric",
+    fact_plugin_cars[keepership] = "Company",
+    fact_plugin_cars[is_year_end] = TRUE ()
+)
+
+Private BEV Growth % (2021–2025) =
+VAR v2021 = CALCULATE ( [BEV Cars Private (year end)], dim_year[year] = 2021 )
+VAR v2025 = CALCULATE ( [BEV Cars Private (year end)], dim_year[year] = 2025 )
+RETURN DIVIDE ( v2025 - v2021, v2021 )
+
+// ---------- Risk indicators ----------
+Funding per Licensed Vehicle £ =
+AVERAGE ( council_risk_indicators[funding_per_licensed_vehicle_gbp] )
+
+Fleet Change % =
+DIVIDE ( AVERAGE ( council_risk_indicators[fleet_change_pct] ), 100 )
+
+Audit Priority Score =
+AVERAGE ( council_risk_indicators[audit_priority_score] )
+
+Audit Priority Rank =
+MIN ( council_risk_indicators[audit_priority_rank] )
+
+Higher Priority Councils =
+CALCULATE ( COUNTROWS ( council_risk_indicators ), council_risk_indicators[audit_priority_tier] = "Higher" )
+
+Funded Councils =
+CALCULATE ( COUNTROWS ( council_risk_indicators ), council_risk_indicators[ev_taxi_funding_gbp] > 0 )
+
+Exposure Colour =
+// Conditional formatting (field value) for the exposure bar chart
+VAR s = [Audit Priority Score]
+RETURN SWITCH ( TRUE (), ISBLANK ( s ), "#9A9993", s >= 70, "#EB6834", s >= 45, "#2A78D6", "#9A9993" )
+
+// ---------- Data quality ----------
+DQ Issues =
+COUNTROWS ( data_quality_log )
+
+DQ High Severity Issues =
+CALCULATE ( [DQ Issues], data_quality_log[severity] = "High" )
+
+// ---------- Narrative helper ----------
+Headline Text =
+"£" & FORMAT ( CALCULATE ( [EV Taxi Funding £], REMOVEFILTERS ( dim_council ) ) / 1e6, "0.0" )
+    & "m of EV taxi loans across " & [Funded Councils] & " councils. "
+    & [Higher Priority Councils] & " councils flagged for audit sampling first."

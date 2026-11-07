@@ -1,0 +1,6 @@
+# Never commit vehicle-level or personal data
+data/private/
+*.pbix.bak
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

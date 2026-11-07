@@ -1,0 +1,49 @@
+source,period,ons_code,check,detail,severity,council
+Scottish Transport Statistics Table 1.4,2021,S12000041,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Angus
+Scottish Transport Statistics Table 1.4,2021,S12000005,Total does not add up,"taxis 46 + PHC 42 = 88, published total 86",High,Clackmannanshire
+Scottish Transport Statistics Table 1.4,2021,S12000036,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,City of Edinburgh
+Scottish Transport Statistics Table 1.4,2021,S12000048,Licence total does not add up,593 + 593 != 593,Low,Perth and Kinross
+Scottish Transport Statistics Table 1.4,2022,S12000005,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Clackmannanshire
+Scottish Transport Statistics Table 1.4,2022,S12000049,Total does not add up,"taxis 1401 + PHC 3163 = 4564, published total 3564",High,Glasgow City
+Scottish Transport Statistics Table 1.4,2022,S12000023,Licence total does not add up,75 + 6 != 83,Low,Orkney Islands
+Scottish Transport Statistics Table 1.4,2022,S12000048,Licence total does not add up,573 + 573 != 573,Low,Perth and Kinross
+Scottish Transport Statistics Table 1.4,2023,S12000033,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Aberdeen City
+Scottish Transport Statistics Table 1.4,2023,S12000035,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Argyll and Bute
+Scottish Transport Statistics Table 1.4,2023,S12000005,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Clackmannanshire
+Scottish Transport Statistics Table 1.4,2023,S12000042,Total does not add up,"taxis 298 + PHC 169 = 467, published total 653",High,Dundee City
+Scottish Transport Statistics Table 1.4,2023,S12000010,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,East Lothian
+Scottish Transport Statistics Table 1.4,2023,S12000013,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Na h-Eileanan Siar
+Scottish Transport Statistics Table 1.4,2023,S12000018,Missing value,Taxi/PHC vehicle counts published as unavailable,Medium,Inverclyde
+Scottish Transport Statistics Table 1.4,2023,S12000020,Licence total does not add up,230 + 12 != 384,Low,Moray
+Scottish Transport Statistics Table 1.4,2023,S12000048,Licence total does not add up,598 + 598 != 598,Low,Perth and Kinross
+Scottish Transport Statistics Table 1.4,2023,S12000039,Licence total does not add up,402 + 0 != 813,Low,West Dunbartonshire
+Scottish Transport Statistics Table 1.4,2021,S12000045,Duplicate row,"Identical figures published for: East Dunbartonshire, Highland",High,East Dunbartonshire
+Scottish Transport Statistics Table 1.4,2021,S12000017,Duplicate row,"Identical figures published for: East Dunbartonshire, Highland",High,Highland
+Scottish Transport Statistics Table 1.4,2022,S12000017,Large year-on-year swing,Taxi vehicles 236 (2021) -> 479 (2022),Medium,Highland
+Scottish Transport Statistics Table 1.4,2023,S12000030,Large year-on-year swing,Taxi vehicles 82 (2022) -> 180 (2023),Medium,Stirling
+Scottish Transport Statistics Table 1.4,2022,S12000034,Large year-on-year swing,Taxi vehicles 350 (2021) -> 493 (2022),Medium,Aberdeenshire
+Scottish Transport Statistics Table 1.4,2023,S12000042,Large year-on-year swing,Taxi vehicles 508 (2022) -> 298 (2023),Medium,Dundee City
+Scottish Transport Statistics Table 1.4,2024,S12000042,Large year-on-year swing,Taxi vehicles 298 (2023) -> 455 (2024),Medium,Dundee City
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"domestic: councils sum 112,632,413 vs published 112,632,414",Low,Scotland
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"hackney: councils sum 16,272,523 vs published 16,272,524",Low,Scotland
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"switched_on_taxis: councils sum 13,523,129 vs published 13,523,126",Low,Scotland
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"used_ev_business: councils sum 3,906,321 vs published 3,906,320",Low,Scotland
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"used_ev_domestic: councils sum 42,000,961 vs published 42,000,959",Low,Scotland
+EST Low Carbon Transport Loan statistics (by council),2011/12-2023/24,S92000003,Column total check,"total: councils sum 223,434,266 vs published 223,434,265",Low,Scotland
+EST Low Carbon Transport Loan statistics (by year),all years,S92000003,Column total check,"business: sum of years 34,997,460 vs published grand total 35,098,922",High,Scotland
+EST Low Carbon Transport Loan statistics (by year),all years,S92000003,Column total check,"domestic: sum of years 112,632,413 vs published grand total 112,632,414",Low,Scotland
+EST Low Carbon Transport Loan statistics (by year),all years,S92000003,Column total check,"total: sum of years 223,332,801 vs published grand total 223,434,265",High,Scotland
+DfT VEH0142 (cars),2020Q4,S92000003,Council sum vs Scotland,Battery electric: councils 13662 vs Scotland 13664 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2021Q4,S92000003,Council sum vs Scotland,Battery electric: councils 24188 vs Scotland 24189 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2022Q4,S92000003,Council sum vs Scotland,Battery electric: councils 38508 vs Scotland 38512 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2023Q4,S92000003,Council sum vs Scotland,Battery electric: councils 55639 vs Scotland 55660 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2024Q4,S92000003,Council sum vs Scotland,Battery electric: councils 75541 vs Scotland 75625 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2025Q4,S92000003,Council sum vs Scotland,Battery electric: councils 102582 vs Scotland 102795 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2026Q2,S92000003,Council sum vs Scotland,Battery electric: councils 119602 vs Scotland 119912 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2020Q4,S92000003,Council sum vs Scotland,Total: councils 25233 vs Scotland 25235 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2021Q4,S92000003,Council sum vs Scotland,Total: councils 41934 vs Scotland 41935 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2022Q4,S92000003,Council sum vs Scotland,Total: councils 62145 vs Scotland 62150 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2023Q4,S92000003,Council sum vs Scotland,Total: councils 86530 vs Scotland 86560 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2024Q4,S92000003,Council sum vs Scotland,Total: councils 115747 vs Scotland 115867 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2025Q4,S92000003,Council sum vs Scotland,Total: councils 158293 vs Scotland 158586 (difference = unallocated postcodes),Low,Scotland
+DfT VEH0142 (cars),2026Q2,S92000003,Council sum vs Scotland,Total: councils 184762 vs Scotland 185200 (difference = unallocated postcodes),Low,Scotland

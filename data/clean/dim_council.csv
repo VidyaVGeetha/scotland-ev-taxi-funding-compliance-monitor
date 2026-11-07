@@ -1,0 +1,33 @@
+ons_code,council,is_island_council
+S12000033,Aberdeen City,False
+S12000034,Aberdeenshire,False
+S12000041,Angus,False
+S12000035,Argyll and Bute,False
+S12000036,City of Edinburgh,False
+S12000005,Clackmannanshire,False
+S12000006,Dumfries and Galloway,False
+S12000042,Dundee City,False
+S12000008,East Ayrshire,False
+S12000045,East Dunbartonshire,False
+S12000010,East Lothian,False
+S12000011,East Renfrewshire,False
+S12000014,Falkirk,False
+S12000047,Fife,False
+S12000049,Glasgow City,False
+S12000017,Highland,False
+S12000018,Inverclyde,False
+S12000019,Midlothian,False
+S12000020,Moray,False
+S12000013,Na h-Eileanan Siar,True
+S12000021,North Ayrshire,False
+S12000050,North Lanarkshire,False
+S12000023,Orkney Islands,True
+S12000048,Perth and Kinross,False
+S12000038,Renfrewshire,False
+S12000026,Scottish Borders,False
+S12000027,Shetland Islands,True
+S12000028,South Ayrshire,False
+S12000029,South Lanarkshire,False
+S12000030,Stirling,False
+S12000039,West Dunbartonshire,False
+S12000040,West Lothian,False

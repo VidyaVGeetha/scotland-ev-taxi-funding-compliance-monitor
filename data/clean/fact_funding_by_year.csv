@@ -1,0 +1,79 @@
+financial_year,fy_start_year,stream,is_ev_taxi_stream,amount_gbp
+2011/12,2011,Business,False,291817.0
+2012/13,2012,Business,False,373134.0
+2013/14,2013,Business,False,228928.0
+2014/15,2014,Business,False,933628.0
+2015/16,2015,Business,False,1861987.0
+2016/17,2016,Business,False,2013595.0
+2017/18,2017,Business,False,1564994.0
+2018/19,2018,Business,False,1817844.0
+2019/20,2019,Business,False,6410352.0
+2020/21,2020,Business,False,8008053.0
+2021/22,2021,Business,False,7362093.0
+2022/23,2022,Business,False,2853874.0
+2023/24,2023,Business,False,1277161.0
+2011/12,2011,Domestic,False,0.0
+2012/13,2012,Domestic,False,0.0
+2013/14,2013,Domestic,False,0.0
+2014/15,2014,Domestic,False,0.0
+2015/16,2015,Domestic,False,1166528.0
+2016/17,2016,Domestic,False,2016452.0
+2017/18,2017,Domestic,False,3484775.0
+2018/19,2018,Domestic,False,7644661.0
+2019/20,2019,Domestic,False,26053313.0
+2020/21,2020,Domestic,False,27455956.0
+2021/22,2021,Domestic,False,36495302.0
+2022/23,2022,Domestic,False,8315426.0
+2023/24,2023,Domestic,False,0.0
+2011/12,2011,Hackney (EV taxi),True,0.0
+2012/13,2012,Hackney (EV taxi),True,0.0
+2013/14,2013,Hackney (EV taxi),True,0.0
+2014/15,2014,Hackney (EV taxi),True,0.0
+2015/16,2015,Hackney (EV taxi),True,0.0
+2016/17,2016,Hackney (EV taxi),True,1744083.0
+2017/18,2017,Hackney (EV taxi),True,2351910.0
+2018/19,2018,Hackney (EV taxi),True,7237875.0
+2019/20,2019,Hackney (EV taxi),True,4248745.0
+2020/21,2020,Hackney (EV taxi),True,623286.0
+2021/22,2021,Hackney (EV taxi),True,66625.0
+2022/23,2022,Hackney (EV taxi),True,0.0
+2023/24,2023,Hackney (EV taxi),True,0.0
+2011/12,2011,Switched On Taxis (EV taxi),True,0.0
+2012/13,2012,Switched On Taxis (EV taxi),True,0.0
+2013/14,2013,Switched On Taxis (EV taxi),True,0.0
+2014/15,2014,Switched On Taxis (EV taxi),True,0.0
+2015/16,2015,Switched On Taxis (EV taxi),True,0.0
+2016/17,2016,Switched On Taxis (EV taxi),True,0.0
+2017/18,2017,Switched On Taxis (EV taxi),True,0.0
+2018/19,2018,Switched On Taxis (EV taxi),True,0.0
+2019/20,2019,Switched On Taxis (EV taxi),True,3393186.0
+2020/21,2020,Switched On Taxis (EV taxi),True,863426.0
+2021/22,2021,Switched On Taxis (EV taxi),True,1427991.0
+2022/23,2022,Switched On Taxis (EV taxi),True,4165500.0
+2023/24,2023,Switched On Taxis (EV taxi),True,3673023.0
+2011/12,2011,Used EV business,False,0.0
+2012/13,2012,Used EV business,False,0.0
+2013/14,2013,Used EV business,False,0.0
+2014/15,2014,Used EV business,False,0.0
+2015/16,2015,Used EV business,False,0.0
+2016/17,2016,Used EV business,False,0.0
+2017/18,2017,Used EV business,False,0.0
+2018/19,2018,Used EV business,False,0.0
+2019/20,2019,Used EV business,False,0.0
+2020/21,2020,Used EV business,False,105493.0
+2021/22,2021,Used EV business,False,289158.0
+2022/23,2022,Used EV business,False,1581393.0
+2023/24,2023,Used EV business,False,1930276.0
+2011/12,2011,Used EV domestic,False,0.0
+2012/13,2012,Used EV domestic,False,0.0
+2013/14,2013,Used EV domestic,False,0.0
+2014/15,2014,Used EV domestic,False,0.0
+2015/16,2015,Used EV domestic,False,0.0
+2016/17,2016,Used EV domestic,False,0.0
+2017/18,2017,Used EV domestic,False,0.0
+2018/19,2018,Used EV domestic,False,0.0
+2019/20,2019,Used EV domestic,False,0.0
+2020/21,2020,Used EV domestic,False,1214738.0
+2021/22,2021,Used EV domestic,False,3528208.0
+2022/23,2022,Used EV domestic,False,16666834.0
+2023/24,2023,Used EV domestic,False,20591179.0
